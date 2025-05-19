@@ -65,7 +65,7 @@ class SlidingWindowDetector:
         iou_threshold: float = 0.45
     ):
         
-        self.model =YOLO("best.pt")
+        self.model =YOLO("best.pt").cuda()
         #self.model =YOLO("C:/Users/silag/OneDrive/Belgeler/4.Sinif/Final_Project_PCB/belgeler/class_a/best.pt").cuda()
         
         print(f"Model is running on: {self.model.device}")
