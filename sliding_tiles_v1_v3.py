@@ -47,7 +47,7 @@ def get_latest_created_image(directory: str) -> Optional[Path]:
     # Use creation time (Windows only)
     latest_file = max(image_files, key=lambda f: f.stat().st_ctime)
     return latest_file
-image_dir = "captured_frames1_after_stop"
+image_dir = "data_exchange/captured_frames1_after_stop"
 latest_image = get_latest_created_image(image_dir)
 print("Latest image by creation time:", latest_image)
 
@@ -521,7 +521,7 @@ def main(image_path):
     # scale_factor = shorter_edge / 3*2  # arbitrary scaling reference
     # adaptive_window_size = int(640 * scale_factor)
     # adaptive_window_size = min(max(adaptive_window_size, 640), 1024)  # clamp between 640 and 1024
-
+    start_time = time.time()
     # Initialize detector
     detector = SlidingWindowDetector(
         model_path=YOLO("best.pt"),  # Replace with your model path
@@ -542,6 +542,9 @@ def main(image_path):
         # visualize=True,
         save_annotated=True
     )
+    end_time = time.time()
+    elapsed = end_time - start_time
+    print(f"Processed {image_path} in {elapsed:.3f} seconds")
     if os.path.exists(image_path):
         os.remove(image_path)
         print(f"Deleted: {image_path}")

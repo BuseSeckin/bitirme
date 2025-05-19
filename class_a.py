@@ -13,7 +13,9 @@ from watchdog.events import FileSystemEventHandler
 from pathlib import Path
 from sliding_tiles_v1_v3 import main  # main(image_path)
 
-WATCH_DIR = "captured_frames1_after_stop"
+
+
+WATCH_DIR = "data_exchange/captured_frames1_after_stop"
 VALID_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp"}
 
 # Create a thread-safe queue for image paths
