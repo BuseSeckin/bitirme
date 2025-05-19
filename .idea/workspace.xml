@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09b4a56a-baa1-4e13-9d47-50c52c881c09" name="Changes" comment="cuda added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captured_frames1_after_stop/frame_20250519_123129_006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/captured_frames1_after_stop/frame_20250519_123144_694.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/captured_frames1_after_stop/frame_20250519_123150_251.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/captured_frames1_after_stop/frame_20250519_123157_847.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/class_a.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_a.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sliding_tiles_v1_v3.py" beforeDir="false" afterPath="$PROJECT_DIR$/sliding_tiles_v1_v3.py" afterDir="false" />
-    </list>
+    <list default="true" id="09b4a56a-baa1-4e13-9d47-50c52c881c09" name="Changes" comment="cuda added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747643863532</updated>
       <workItem from="1747643864652" duration="9223000" />
-      <workItem from="1747658096670" duration="2575000" />
+      <workItem from="1747658096670" duration="3662000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -142,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747648249610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cuda added">
+      <option name="closed" value="true" />
+      <created>1747660811233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747660811233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,19 +155,8 @@
     <MESSAGE value="cuda added" />
     <option name="LAST_COMMIT_MESSAGE" value="cuda added" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/arduino_deneme_6s.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bitirme$arduino_deneme_6s.coverage" NAME="arduino_deneme_6s Coverage Results" MODIFIED="1747656256126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/bitirme$arduino_deneme_6s.coverage" NAME="arduino_deneme_6s Coverage Results" MODIFIED="1747661338281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bitirme$class_a.coverage" NAME="class_a Coverage Results" MODIFIED="1747657089708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bitirme$sliding_tiles_v1_v3.coverage" NAME="sliding_tiles_v1_v3 Coverage Results" MODIFIED="1747648832151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
