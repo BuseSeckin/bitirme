@@ -612,11 +612,11 @@ def main():
     PASSWORD = 'talha'
     
     # Arduino serial port configuration
-    ARDUINO_PORT = 'COM9'  # Change to your Arduino port
+    ARDUINO_PORT = 'COM3'  # Change to your Arduino port
     ARDUINO_BAUD = 115200  # Matching Arduino baud rate
     
     # Base directory for all captured frames
-    BASE_SAVE_DIR = r'C:\Users\silag\OneDrive\Belgeler\4.Sinif\Final_Project_PCB\belgeler\data_exchange'
+    BASE_SAVE_DIR = r'data_exchange'
     
     # Define camera configurations with relative directory names
     camera_configs = [
